@@ -8,10 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		00FED245D25C293101613E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C35F1BE19B6666F832F887 /* Foundation.framework */; };
-		0B88A8FBC64F68F166A58275 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E85863AD8161759087132AF /* ReplaceMe.m */; };
 		2007470F6E5CCA33C80C5DFF /* Pods-PowerPack-iOS_Tests-PowerPack-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 383479FD2236F95F13C14D41 /* Pods-PowerPack-iOS_Tests-PowerPack-iOS-dummy.m */; };
 		277926910E9913168BCF496F /* Pods-PowerPack-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDDC12A5E11778AA1FEA1AAA /* Pods-PowerPack-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F86B9FB442B8F3E0A75BF81 /* Pods-PowerPack-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74933B769377C6CD63263D4D /* Pods-PowerPack-iOS_Tests-dummy.m */; };
+		466DA5361B68E0B100AED5EC /* PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA4FB1B68E0B100AED5EC /* PowerPack.h */; };
+		466DA5391B68E0B100AED5EC /* NSArray+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA4FE1B68E0B100AED5EC /* NSArray+PowerPack.h */; };
+		466DA53A1B68E0B100AED5EC /* NSArray+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA4FF1B68E0B100AED5EC /* NSArray+PowerPack.m */; };
+		466DA53B1B68E0B100AED5EC /* NSCalendar+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5001B68E0B100AED5EC /* NSCalendar+PowerPack.h */; };
+		466DA53C1B68E0B100AED5EC /* NSCalendar+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5011B68E0B100AED5EC /* NSCalendar+PowerPack.m */; };
+		466DA53D1B68E0B100AED5EC /* NSData+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5021B68E0B100AED5EC /* NSData+PowerPack.h */; };
+		466DA53E1B68E0B100AED5EC /* NSData+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5031B68E0B100AED5EC /* NSData+PowerPack.m */; };
+		466DA53F1B68E0B100AED5EC /* NSDate+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5041B68E0B100AED5EC /* NSDate+PowerPack.h */; };
+		466DA5401B68E0B100AED5EC /* NSDate+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5051B68E0B100AED5EC /* NSDate+PowerPack.m */; };
+		466DA5411B68E0B100AED5EC /* NSDateFormatter+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5061B68E0B100AED5EC /* NSDateFormatter+PowerPack.h */; };
+		466DA5421B68E0B100AED5EC /* NSDateFormatter+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5071B68E0B100AED5EC /* NSDateFormatter+PowerPack.m */; };
+		466DA5431B68E0B100AED5EC /* NSMutableArray+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5081B68E0B100AED5EC /* NSMutableArray+PowerPack.h */; };
+		466DA5441B68E0B100AED5EC /* NSMutableArray+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5091B68E0B100AED5EC /* NSMutableArray+PowerPack.m */; };
+		466DA5451B68E0B100AED5EC /* NSObject+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA50A1B68E0B100AED5EC /* NSObject+PowerPack.h */; };
+		466DA5461B68E0B100AED5EC /* NSObject+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA50B1B68E0B100AED5EC /* NSObject+PowerPack.m */; };
+		466DA5471B68E0B100AED5EC /* NSString+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA50C1B68E0B100AED5EC /* NSString+PowerPack.h */; };
+		466DA5481B68E0B100AED5EC /* NSString+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA50D1B68E0B100AED5EC /* NSString+PowerPack.m */; };
+		466DA5491B68E0B100AED5EC /* SLComposeViewController+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA50E1B68E0B100AED5EC /* SLComposeViewController+PowerPack.h */; };
+		466DA54A1B68E0B100AED5EC /* SLComposeViewController+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA50F1B68E0B100AED5EC /* SLComposeViewController+PowerPack.m */; };
+		466DA54B1B68E0B100AED5EC /* UIActionSheet+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5101B68E0B100AED5EC /* UIActionSheet+PowerPack.h */; };
+		466DA54C1B68E0B100AED5EC /* UIActionSheet+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5111B68E0B100AED5EC /* UIActionSheet+PowerPack.m */; };
+		466DA54D1B68E0B100AED5EC /* UIAlertView+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5121B68E0B100AED5EC /* UIAlertView+PowerPack.h */; };
+		466DA54E1B68E0B100AED5EC /* UIAlertView+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5131B68E0B100AED5EC /* UIAlertView+PowerPack.m */; };
+		466DA54F1B68E0B100AED5EC /* UIApplication+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5141B68E0B100AED5EC /* UIApplication+PowerPack.h */; };
+		466DA5501B68E0B100AED5EC /* UIApplication+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5151B68E0B100AED5EC /* UIApplication+PowerPack.m */; };
+		466DA5511B68E0B100AED5EC /* UIBarButtonItem+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5161B68E0B100AED5EC /* UIBarButtonItem+PowerPack.h */; };
+		466DA5521B68E0B100AED5EC /* UIBarButtonItem+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5171B68E0B100AED5EC /* UIBarButtonItem+PowerPack.m */; };
+		466DA5531B68E0B100AED5EC /* UIButton+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5181B68E0B100AED5EC /* UIButton+PowerPack.h */; };
+		466DA5541B68E0B100AED5EC /* UIButton+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5191B68E0B100AED5EC /* UIButton+PowerPack.m */; };
+		466DA5551B68E0B100AED5EC /* UIColor+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA51A1B68E0B100AED5EC /* UIColor+PowerPack.h */; };
+		466DA5561B68E0B100AED5EC /* UIColor+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA51B1B68E0B100AED5EC /* UIColor+PowerPack.m */; };
+		466DA5571B68E0B100AED5EC /* UIDatePicker+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA51C1B68E0B100AED5EC /* UIDatePicker+PowerPack.h */; };
+		466DA5581B68E0B100AED5EC /* UIDatePicker+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA51D1B68E0B100AED5EC /* UIDatePicker+PowerPack.m */; };
+		466DA5591B68E0B100AED5EC /* UIDevice+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA51E1B68E0B100AED5EC /* UIDevice+PowerPack.h */; };
+		466DA55A1B68E0B100AED5EC /* UIDevice+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA51F1B68E0B100AED5EC /* UIDevice+PowerPack.m */; };
+		466DA55B1B68E0B100AED5EC /* UIFont+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5201B68E0B100AED5EC /* UIFont+PowerPack.h */; };
+		466DA55C1B68E0B100AED5EC /* UIFont+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5211B68E0B100AED5EC /* UIFont+PowerPack.m */; };
+		466DA55D1B68E0B100AED5EC /* UIImage+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5221B68E0B100AED5EC /* UIImage+PowerPack.h */; };
+		466DA55E1B68E0B100AED5EC /* UIImage+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5231B68E0B100AED5EC /* UIImage+PowerPack.m */; };
+		466DA55F1B68E0B100AED5EC /* UINavigationController+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5241B68E0B100AED5EC /* UINavigationController+PowerPack.h */; };
+		466DA5601B68E0B100AED5EC /* UINavigationController+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5251B68E0B100AED5EC /* UINavigationController+PowerPack.m */; };
+		466DA5611B68E0B100AED5EC /* UIPickerView+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5261B68E0B100AED5EC /* UIPickerView+PowerPack.h */; };
+		466DA5621B68E0B100AED5EC /* UIPickerView+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5271B68E0B100AED5EC /* UIPickerView+PowerPack.m */; };
+		466DA5631B68E0B100AED5EC /* UIScreen+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5281B68E0B100AED5EC /* UIScreen+PowerPack.h */; };
+		466DA5641B68E0B100AED5EC /* UIScreen+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5291B68E0B100AED5EC /* UIScreen+PowerPack.m */; };
+		466DA5651B68E0B100AED5EC /* UIScrollView+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA52A1B68E0B100AED5EC /* UIScrollView+PowerPack.h */; };
+		466DA5661B68E0B100AED5EC /* UIScrollView+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA52B1B68E0B100AED5EC /* UIScrollView+PowerPack.m */; };
+		466DA5671B68E0B100AED5EC /* UITableView+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA52C1B68E0B100AED5EC /* UITableView+PowerPack.h */; };
+		466DA5681B68E0B100AED5EC /* UITableView+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA52D1B68E0B100AED5EC /* UITableView+PowerPack.m */; };
+		466DA5691B68E0B100AED5EC /* UITableViewCell+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA52E1B68E0B100AED5EC /* UITableViewCell+PowerPack.h */; };
+		466DA56A1B68E0B100AED5EC /* UITableViewCell+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA52F1B68E0B100AED5EC /* UITableViewCell+PowerPack.m */; };
+		466DA56B1B68E0B100AED5EC /* UITextField+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5301B68E0B100AED5EC /* UITextField+PowerPack.h */; };
+		466DA56C1B68E0B100AED5EC /* UITextField+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5311B68E0B100AED5EC /* UITextField+PowerPack.m */; };
+		466DA56D1B68E0B100AED5EC /* UIView+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5321B68E0B100AED5EC /* UIView+PowerPack.h */; };
+		466DA56E1B68E0B100AED5EC /* UIView+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5331B68E0B100AED5EC /* UIView+PowerPack.m */; };
+		466DA56F1B68E0B100AED5EC /* UIViewController+PowerPack.h in Headers */ = {isa = PBXBuildFile; fileRef = 466DA5341B68E0B100AED5EC /* UIViewController+PowerPack.h */; };
+		466DA5701B68E0B100AED5EC /* UIViewController+PowerPack.m in Sources */ = {isa = PBXBuildFile; fileRef = 466DA5351B68E0B100AED5EC /* UIViewController+PowerPack.m */; };
 		849B137E400996506C7D2836 /* PowerPack-iOS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 82CD41BEC94F85FCFA22BB75 /* PowerPack-iOS.bundle */; };
 		8C7A004306251ACB58C652BE /* Pods-PowerPack-iOS_Tests-PowerPack-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EFF03279B07E58B30F5EB7 /* Pods-PowerPack-iOS_Tests-PowerPack-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F37C460C3CDE67DD79EFAE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C35F1BE19B6666F832F887 /* Foundation.framework */; };
@@ -39,7 +95,63 @@
 		2DBED1DA7372275928C9FEB5 /* Pods-PowerPack-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PowerPack-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		383479FD2236F95F13C14D41 /* Pods-PowerPack-iOS_Tests-PowerPack-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PowerPack-iOS_Tests-PowerPack-iOS-dummy.m"; sourceTree = "<group>"; };
 		3A612E8AE78A6C84937FDDEE /* Pods-PowerPack-iOS_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PowerPack-iOS_Tests-environment.h"; sourceTree = "<group>"; };
-		4E85863AD8161759087132AF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		466DA4FB1B68E0B100AED5EC /* PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerPack.h; sourceTree = "<group>"; };
+		466DA4FE1B68E0B100AED5EC /* NSArray+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PowerPack.h"; sourceTree = "<group>"; };
+		466DA4FF1B68E0B100AED5EC /* NSArray+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5001B68E0B100AED5EC /* NSCalendar+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5011B68E0B100AED5EC /* NSCalendar+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5021B68E0B100AED5EC /* NSData+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5031B68E0B100AED5EC /* NSData+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5041B68E0B100AED5EC /* NSDate+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5051B68E0B100AED5EC /* NSDate+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5061B68E0B100AED5EC /* NSDateFormatter+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5071B68E0B100AED5EC /* NSDateFormatter+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5081B68E0B100AED5EC /* NSMutableArray+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5091B68E0B100AED5EC /* NSMutableArray+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+PowerPack.m"; sourceTree = "<group>"; };
+		466DA50A1B68E0B100AED5EC /* NSObject+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PowerPack.h"; sourceTree = "<group>"; };
+		466DA50B1B68E0B100AED5EC /* NSObject+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PowerPack.m"; sourceTree = "<group>"; };
+		466DA50C1B68E0B100AED5EC /* NSString+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PowerPack.h"; sourceTree = "<group>"; };
+		466DA50D1B68E0B100AED5EC /* NSString+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PowerPack.m"; sourceTree = "<group>"; };
+		466DA50E1B68E0B100AED5EC /* SLComposeViewController+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLComposeViewController+PowerPack.h"; sourceTree = "<group>"; };
+		466DA50F1B68E0B100AED5EC /* SLComposeViewController+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLComposeViewController+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5101B68E0B100AED5EC /* UIActionSheet+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5111B68E0B100AED5EC /* UIActionSheet+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5121B68E0B100AED5EC /* UIAlertView+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5131B68E0B100AED5EC /* UIAlertView+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5141B68E0B100AED5EC /* UIApplication+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5151B68E0B100AED5EC /* UIApplication+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5161B68E0B100AED5EC /* UIBarButtonItem+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5171B68E0B100AED5EC /* UIBarButtonItem+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5181B68E0B100AED5EC /* UIButton+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5191B68E0B100AED5EC /* UIButton+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PowerPack.m"; sourceTree = "<group>"; };
+		466DA51A1B68E0B100AED5EC /* UIColor+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PowerPack.h"; sourceTree = "<group>"; };
+		466DA51B1B68E0B100AED5EC /* UIColor+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PowerPack.m"; sourceTree = "<group>"; };
+		466DA51C1B68E0B100AED5EC /* UIDatePicker+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDatePicker+PowerPack.h"; sourceTree = "<group>"; };
+		466DA51D1B68E0B100AED5EC /* UIDatePicker+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+PowerPack.m"; sourceTree = "<group>"; };
+		466DA51E1B68E0B100AED5EC /* UIDevice+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+PowerPack.h"; sourceTree = "<group>"; };
+		466DA51F1B68E0B100AED5EC /* UIDevice+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5201B68E0B100AED5EC /* UIFont+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5211B68E0B100AED5EC /* UIFont+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5221B68E0B100AED5EC /* UIImage+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5231B68E0B100AED5EC /* UIImage+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5241B68E0B100AED5EC /* UINavigationController+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5251B68E0B100AED5EC /* UINavigationController+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5261B68E0B100AED5EC /* UIPickerView+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5271B68E0B100AED5EC /* UIPickerView+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5281B68E0B100AED5EC /* UIScreen+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5291B68E0B100AED5EC /* UIScreen+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+PowerPack.m"; sourceTree = "<group>"; };
+		466DA52A1B68E0B100AED5EC /* UIScrollView+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PowerPack.h"; sourceTree = "<group>"; };
+		466DA52B1B68E0B100AED5EC /* UIScrollView+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PowerPack.m"; sourceTree = "<group>"; };
+		466DA52C1B68E0B100AED5EC /* UITableView+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+PowerPack.h"; sourceTree = "<group>"; };
+		466DA52D1B68E0B100AED5EC /* UITableView+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+PowerPack.m"; sourceTree = "<group>"; };
+		466DA52E1B68E0B100AED5EC /* UITableViewCell+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+PowerPack.h"; sourceTree = "<group>"; };
+		466DA52F1B68E0B100AED5EC /* UITableViewCell+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5301B68E0B100AED5EC /* UITextField+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5311B68E0B100AED5EC /* UITextField+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5321B68E0B100AED5EC /* UIView+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5331B68E0B100AED5EC /* UIView+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PowerPack.m"; sourceTree = "<group>"; };
+		466DA5341B68E0B100AED5EC /* UIViewController+PowerPack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PowerPack.h"; sourceTree = "<group>"; };
+		466DA5351B68E0B100AED5EC /* UIViewController+PowerPack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PowerPack.m"; sourceTree = "<group>"; };
 		5ED1220544D2AC84ACAFFBDB /* PowerPack_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PowerPack_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6562502B195A92DD89CB6B9F /* Pods-PowerPack-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PowerPack-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6643A553AB1232C20FA83809 /* Pods-PowerPack-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PowerPack-iOS_Tests.modulemap"; sourceTree = "<group>"; };
@@ -91,7 +203,11 @@
 		353DA31184B0F13FF09DFBB7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4E85863AD8161759087132AF /* ReplaceMe.m */,
+				466DA4FB1B68E0B100AED5EC /* PowerPack.h */,
+				466DA5711B68E21B00AED5EC /* Data Structures */,
+				466DA5721B68E23000AED5EC /* UI Structures */,
+				466DA5731B68E24900AED5EC /* UI Components */,
+				466DA5741B68E28100AED5EC /* Controllers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -102,6 +218,90 @@
 				B243C5143E64219230C161A2 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		466DA5711B68E21B00AED5EC /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				466DA50A1B68E0B100AED5EC /* NSObject+PowerPack.h */,
+				466DA50B1B68E0B100AED5EC /* NSObject+PowerPack.m */,
+				466DA50C1B68E0B100AED5EC /* NSString+PowerPack.h */,
+				466DA50D1B68E0B100AED5EC /* NSString+PowerPack.m */,
+				466DA4FE1B68E0B100AED5EC /* NSArray+PowerPack.h */,
+				466DA4FF1B68E0B100AED5EC /* NSArray+PowerPack.m */,
+				466DA5081B68E0B100AED5EC /* NSMutableArray+PowerPack.h */,
+				466DA5091B68E0B100AED5EC /* NSMutableArray+PowerPack.m */,
+				466DA5021B68E0B100AED5EC /* NSData+PowerPack.h */,
+				466DA5031B68E0B100AED5EC /* NSData+PowerPack.m */,
+				466DA5041B68E0B100AED5EC /* NSDate+PowerPack.h */,
+				466DA5051B68E0B100AED5EC /* NSDate+PowerPack.m */,
+				466DA5001B68E0B100AED5EC /* NSCalendar+PowerPack.h */,
+				466DA5011B68E0B100AED5EC /* NSCalendar+PowerPack.m */,
+				466DA5061B68E0B100AED5EC /* NSDateFormatter+PowerPack.h */,
+				466DA5071B68E0B100AED5EC /* NSDateFormatter+PowerPack.m */,
+			);
+			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		466DA5721B68E23000AED5EC /* UI Structures */ = {
+			isa = PBXGroup;
+			children = (
+				466DA51E1B68E0B100AED5EC /* UIDevice+PowerPack.h */,
+				466DA51F1B68E0B100AED5EC /* UIDevice+PowerPack.m */,
+				466DA5281B68E0B100AED5EC /* UIScreen+PowerPack.h */,
+				466DA5291B68E0B100AED5EC /* UIScreen+PowerPack.m */,
+				466DA51A1B68E0B100AED5EC /* UIColor+PowerPack.h */,
+				466DA51B1B68E0B100AED5EC /* UIColor+PowerPack.m */,
+				466DA5201B68E0B100AED5EC /* UIFont+PowerPack.h */,
+				466DA5211B68E0B100AED5EC /* UIFont+PowerPack.m */,
+				466DA5221B68E0B100AED5EC /* UIImage+PowerPack.h */,
+				466DA5231B68E0B100AED5EC /* UIImage+PowerPack.m */,
+			);
+			name = "UI Structures";
+			sourceTree = "<group>";
+		};
+		466DA5731B68E24900AED5EC /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				466DA5141B68E0B100AED5EC /* UIApplication+PowerPack.h */,
+				466DA5151B68E0B100AED5EC /* UIApplication+PowerPack.m */,
+				466DA5321B68E0B100AED5EC /* UIView+PowerPack.h */,
+				466DA5331B68E0B100AED5EC /* UIView+PowerPack.m */,
+				466DA5181B68E0B100AED5EC /* UIButton+PowerPack.h */,
+				466DA5191B68E0B100AED5EC /* UIButton+PowerPack.m */,
+				466DA5301B68E0B100AED5EC /* UITextField+PowerPack.h */,
+				466DA5311B68E0B100AED5EC /* UITextField+PowerPack.m */,
+				466DA5101B68E0B100AED5EC /* UIActionSheet+PowerPack.h */,
+				466DA5111B68E0B100AED5EC /* UIActionSheet+PowerPack.m */,
+				466DA5121B68E0B100AED5EC /* UIAlertView+PowerPack.h */,
+				466DA5131B68E0B100AED5EC /* UIAlertView+PowerPack.m */,
+				466DA5161B68E0B100AED5EC /* UIBarButtonItem+PowerPack.h */,
+				466DA5171B68E0B100AED5EC /* UIBarButtonItem+PowerPack.m */,
+				466DA51C1B68E0B100AED5EC /* UIDatePicker+PowerPack.h */,
+				466DA51D1B68E0B100AED5EC /* UIDatePicker+PowerPack.m */,
+				466DA5261B68E0B100AED5EC /* UIPickerView+PowerPack.h */,
+				466DA5271B68E0B100AED5EC /* UIPickerView+PowerPack.m */,
+				466DA52A1B68E0B100AED5EC /* UIScrollView+PowerPack.h */,
+				466DA52B1B68E0B100AED5EC /* UIScrollView+PowerPack.m */,
+				466DA52C1B68E0B100AED5EC /* UITableView+PowerPack.h */,
+				466DA52D1B68E0B100AED5EC /* UITableView+PowerPack.m */,
+				466DA52E1B68E0B100AED5EC /* UITableViewCell+PowerPack.h */,
+				466DA52F1B68E0B100AED5EC /* UITableViewCell+PowerPack.m */,
+			);
+			name = "UI Components";
+			sourceTree = "<group>";
+		};
+		466DA5741B68E28100AED5EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				466DA5341B68E0B100AED5EC /* UIViewController+PowerPack.h */,
+				466DA5351B68E0B100AED5EC /* UIViewController+PowerPack.m */,
+				466DA5241B68E0B100AED5EC /* UINavigationController+PowerPack.h */,
+				466DA5251B68E0B100AED5EC /* UINavigationController+PowerPack.m */,
+				466DA50E1B68E0B100AED5EC /* SLComposeViewController+PowerPack.h */,
+				466DA50F1B68E0B100AED5EC /* SLComposeViewController+PowerPack.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		4F5B3C4132BB953988BFF4F5 /* Targets Support Files */ = {
@@ -208,7 +408,36 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466DA5591B68E0B100AED5EC /* UIDevice+PowerPack.h in Headers */,
+				466DA5391B68E0B100AED5EC /* NSArray+PowerPack.h in Headers */,
+				466DA5451B68E0B100AED5EC /* NSObject+PowerPack.h in Headers */,
+				466DA54F1B68E0B100AED5EC /* UIApplication+PowerPack.h in Headers */,
+				466DA5431B68E0B100AED5EC /* NSMutableArray+PowerPack.h in Headers */,
 				277926910E9913168BCF496F /* Pods-PowerPack-iOS_Tests-umbrella.h in Headers */,
+				466DA5491B68E0B100AED5EC /* SLComposeViewController+PowerPack.h in Headers */,
+				466DA5511B68E0B100AED5EC /* UIBarButtonItem+PowerPack.h in Headers */,
+				466DA56B1B68E0B100AED5EC /* UITextField+PowerPack.h in Headers */,
+				466DA5361B68E0B100AED5EC /* PowerPack.h in Headers */,
+				466DA5651B68E0B100AED5EC /* UIScrollView+PowerPack.h in Headers */,
+				466DA54B1B68E0B100AED5EC /* UIActionSheet+PowerPack.h in Headers */,
+				466DA5671B68E0B100AED5EC /* UITableView+PowerPack.h in Headers */,
+				466DA5411B68E0B100AED5EC /* NSDateFormatter+PowerPack.h in Headers */,
+				466DA53F1B68E0B100AED5EC /* NSDate+PowerPack.h in Headers */,
+				466DA5571B68E0B100AED5EC /* UIDatePicker+PowerPack.h in Headers */,
+				466DA55F1B68E0B100AED5EC /* UINavigationController+PowerPack.h in Headers */,
+				466DA54D1B68E0B100AED5EC /* UIAlertView+PowerPack.h in Headers */,
+				466DA5691B68E0B100AED5EC /* UITableViewCell+PowerPack.h in Headers */,
+				466DA56F1B68E0B100AED5EC /* UIViewController+PowerPack.h in Headers */,
+				466DA53B1B68E0B100AED5EC /* NSCalendar+PowerPack.h in Headers */,
+				466DA5471B68E0B100AED5EC /* NSString+PowerPack.h in Headers */,
+				466DA53D1B68E0B100AED5EC /* NSData+PowerPack.h in Headers */,
+				466DA56D1B68E0B100AED5EC /* UIView+PowerPack.h in Headers */,
+				466DA55D1B68E0B100AED5EC /* UIImage+PowerPack.h in Headers */,
+				466DA55B1B68E0B100AED5EC /* UIFont+PowerPack.h in Headers */,
+				466DA5631B68E0B100AED5EC /* UIScreen+PowerPack.h in Headers */,
+				466DA5611B68E0B100AED5EC /* UIPickerView+PowerPack.h in Headers */,
+				466DA5551B68E0B100AED5EC /* UIColor+PowerPack.h in Headers */,
+				466DA5531B68E0B100AED5EC /* UIButton+PowerPack.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +557,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2007470F6E5CCA33C80C5DFF /* Pods-PowerPack-iOS_Tests-PowerPack-iOS-dummy.m in Sources */,
-				0B88A8FBC64F68F166A58275 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +571,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466DA5621B68E0B100AED5EC /* UIPickerView+PowerPack.m in Sources */,
+				466DA5521B68E0B100AED5EC /* UIBarButtonItem+PowerPack.m in Sources */,
+				466DA5601B68E0B100AED5EC /* UINavigationController+PowerPack.m in Sources */,
+				466DA5661B68E0B100AED5EC /* UIScrollView+PowerPack.m in Sources */,
+				466DA5541B68E0B100AED5EC /* UIButton+PowerPack.m in Sources */,
+				466DA5501B68E0B100AED5EC /* UIApplication+PowerPack.m in Sources */,
+				466DA55E1B68E0B100AED5EC /* UIImage+PowerPack.m in Sources */,
+				466DA5461B68E0B100AED5EC /* NSObject+PowerPack.m in Sources */,
+				466DA53E1B68E0B100AED5EC /* NSData+PowerPack.m in Sources */,
+				466DA5421B68E0B100AED5EC /* NSDateFormatter+PowerPack.m in Sources */,
+				466DA53C1B68E0B100AED5EC /* NSCalendar+PowerPack.m in Sources */,
+				466DA5581B68E0B100AED5EC /* UIDatePicker+PowerPack.m in Sources */,
+				466DA5561B68E0B100AED5EC /* UIColor+PowerPack.m in Sources */,
+				466DA54E1B68E0B100AED5EC /* UIAlertView+PowerPack.m in Sources */,
+				466DA53A1B68E0B100AED5EC /* NSArray+PowerPack.m in Sources */,
+				466DA56A1B68E0B100AED5EC /* UITableViewCell+PowerPack.m in Sources */,
 				2F86B9FB442B8F3E0A75BF81 /* Pods-PowerPack-iOS_Tests-dummy.m in Sources */,
+				466DA56C1B68E0B100AED5EC /* UITextField+PowerPack.m in Sources */,
+				466DA5401B68E0B100AED5EC /* NSDate+PowerPack.m in Sources */,
+				466DA54A1B68E0B100AED5EC /* SLComposeViewController+PowerPack.m in Sources */,
+				466DA55A1B68E0B100AED5EC /* UIDevice+PowerPack.m in Sources */,
+				466DA5481B68E0B100AED5EC /* NSString+PowerPack.m in Sources */,
+				466DA54C1B68E0B100AED5EC /* UIActionSheet+PowerPack.m in Sources */,
+				466DA56E1B68E0B100AED5EC /* UIView+PowerPack.m in Sources */,
+				466DA5641B68E0B100AED5EC /* UIScreen+PowerPack.m in Sources */,
+				466DA5681B68E0B100AED5EC /* UITableView+PowerPack.m in Sources */,
+				466DA55C1B68E0B100AED5EC /* UIFont+PowerPack.m in Sources */,
+				466DA5701B68E0B100AED5EC /* UIViewController+PowerPack.m in Sources */,
+				466DA5441B68E0B100AED5EC /* NSMutableArray+PowerPack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

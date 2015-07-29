@@ -30,6 +30,10 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit', 'Social', 'SystemConfiguration'
+  s.dependency 'Reachability'
   s.dependency 'GPUImage'
+  s.dependency 'Parse'
+  s.dependency 'ParseUI'
+  s.dependency 'ParseFacebookUtils'
 end

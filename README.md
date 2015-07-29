@@ -26,4 +26,4 @@ Tiago Silva, eng.tiago.silva@gmail.com
 
 ## License
 
-PowerPack-iOS is available under the MIT license. See the LICENSE file for more info.
+PowerPack-iOS is available under the Apache License, Version 2. See the LICENSE file for more info.
