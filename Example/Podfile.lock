@@ -1,0 +1,14 @@
+PODS:
+  - PowerPack-iOS (0.1.0)
+
+DEPENDENCIES:
+  - PowerPack-iOS (from `../`)
+
+EXTERNAL SOURCES:
+  PowerPack-iOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PowerPack-iOS: e8b60603f430258249a4f9ac9ba18b3a62975978
+
+COCOAPODS: 0.36.1

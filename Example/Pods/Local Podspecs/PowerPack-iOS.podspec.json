@@ -1,0 +1,25 @@
+{
+  "name": "PowerPack-iOS",
+  "version": "0.1.0",
+  "summary": "A short description of PowerPack-iOS.",
+  "description": "                       An optional longer description of PowerPack-iOS\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PowerPack-iOS",
+  "license": "MIT",
+  "authors": {
+    "Tiago Silva": "eng.tiago.silva@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PowerPack-iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PowerPack-iOS": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

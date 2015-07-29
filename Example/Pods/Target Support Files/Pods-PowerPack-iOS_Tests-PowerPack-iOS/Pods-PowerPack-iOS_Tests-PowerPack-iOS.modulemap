@@ -1,0 +1,6 @@
+framework module PowerPack_iOS {
+  umbrella header "Pods-PowerPack-iOS_Tests-PowerPack-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
