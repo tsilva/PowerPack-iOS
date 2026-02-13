@@ -1,9 +1,15 @@
+<div align="center">
+
 # PowerPack-iOS
+
+**📱 Utility extensions and helpers for iOS development via CocoaPods 🔧**
 
 [![CI Status](http://img.shields.io/travis/Tiago Silva/PowerPack-iOS.svg?style=flat)](https://travis-ci.org/Tiago Silva/PowerPack-iOS)
 [![Version](https://img.shields.io/cocoapods/v/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
 [![License](https://img.shields.io/cocoapods/l/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
 [![Platform](https://img.shields.io/cocoapods/p/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
+
+</div>
 
 ## Usage
 
