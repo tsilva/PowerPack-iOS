@@ -1,19 +1,20 @@
+<p align="center">
+  <img src="logo.png" alt="PowerPack-iOS" width="512"/>
+  <br />
+  <!-- repo-tagline:start -->
+  <strong>🔧 Reduce iOS boilerplate with Objective-C categories 📱</strong>
+  <!-- repo-tagline:end -->
+</p>
+
+[![Version](https://img.shields.io/cocoapods/v/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
+  [![License](https://img.shields.io/cocoapods/l/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
+  [![Platform](https://img.shields.io/cocoapods/p/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
+
 > [!WARNING]
 > ## Archived
 > This project is archived and no longer maintained.
 >
 > iOS APIs and development patterns have evolved significantly since this library was written. UIKit patterns, block-based APIs, and tooling have all changed substantially — newer Swift-first alternatives provide better ergonomics for modern iOS development.
-
-<div align="center">
-  <img src="logo.png" alt="PowerPack-iOS" width="512"/>
-
-  [![Version](https://img.shields.io/cocoapods/v/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
-  [![License](https://img.shields.io/cocoapods/l/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
-  [![Platform](https://img.shields.io/cocoapods/p/PowerPack-iOS.svg?style=flat)](http://cocoapods.org/pods/PowerPack-iOS)
-
-  **🔧 Objective-C category extensions that cut iOS boilerplate across 27+ UIKit and Foundation classes 📱**
-
-</div>
 
 ## Overview
 
